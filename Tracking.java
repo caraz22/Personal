@@ -19,9 +19,22 @@ public class Tracking {
         System.out.print("(January 13 - February 13: 1, February 14 - March 13: 2, March 14 - April 13: 3, April 14 - May 13: 4. ");
         int month = in.nextInt();
 
+        double newBalance = 0;
+
         if (month == 1) {
-            double newBalance = startingPoint - 
+            newBalance = startingPoint - monthly;
+            System.out.println("Your budget requires you to keep your bank account at no lower than " + round(newBalance));
+        } else if (month == 2) {
+            newBalance = startingPoint - (monthly * 2);
+            System.out.println("Your budget requires you to keep your bank account at no lower than " + round(newBalance));
+        } else if (month == 3) {
+            newBalance = startingPoint - (monthly * 3);
+            System.out.println("Your budget requires you to keep your bank account at no lower than " + round(newBalance));
+        } else if (month == 4) {
+            System.out.println("Your budget requires you to keep your bank account positive");
         }
+
+        in.close();
     }
 
 
