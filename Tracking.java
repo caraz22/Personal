@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Tracking {
@@ -34,9 +35,37 @@ public class Tracking {
             System.out.println("Your budget requires you to keep your bank account positive");
         }
 
+        double calculatedBudget = calculate(freeMonthly);
+        if (calculatedBudget >= 0) {
+             System.out.println("So far, you still have " + round(calculatedBudget) + " to spend for the month.");            
+        }else if (calculatedBudget < 0) {
+            double nextMonth = freeMonthly + calculatedBudget;
+            System.out.println("Since you went over your budget for the month, next month you will have " + round(nextMonth) + " for free spending.");
+        }
+
         in.close();
     }
 
+    /*
+    ADD CHARGES HERE AS THEY COME
+    */
+    public static double calculate(double freeMonthly) {
+        double allCharges = 0;
+        ArrayList<Double> charges = new ArrayList<>();
+        double amazon = 109.82;
+        double meijer = 8.68;
+        
+        charges.add(amazon);
+        charges.add(meijer);
+
+        for (int i = 0; i < charges.size(); i++) {
+            allCharges += charges.get(i);
+        }
+
+        double remainingFreeSpend = freeMonthly - allCharges;
+
+        return remainingFreeSpend;
+    }
 
     public static String round(double money) {
         return "$" + String.format("%.2f", money);
