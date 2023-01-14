@@ -17,7 +17,7 @@ public class Tracking {
         System.out.println("Use this program to track your money spending activity");   
         
         System.out.println("Which month are you in?");
-        System.out.print("(January 13 - February 13: 1, February 14 - March 13: 2, March 14 - April 13: 3, April 14 - May 13: 4. ");
+        System.out.print("(January 13 - February 13: 1, February 14 - March 13: 2, March 14 - April 13: 3, April 14 - May 13: 4). ");
         int month = in.nextInt();
 
         double newBalance = 0;
