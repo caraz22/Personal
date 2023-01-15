@@ -48,6 +48,7 @@ public class Tracking {
 
     /*
     ADD CHARGES HERE AS THEY COME
+    RESET CHARGES AT START OF THE NEXT MONTH
     */
     public static double calculate(double freeMonthly) {
         double allCharges = 0;
