@@ -53,13 +53,15 @@ public class Tracking {
     public static double calculate(double freeMonthly) {
         double allCharges = 0;
         ArrayList<Double> charges = new ArrayList<>();
-        double amazon = 109.82;
+        double amazon = 120.48;
         double meijer = 8.68;
         double doorDash = 28.09;
+        double gaming = 10.87;
         
         charges.add(amazon);
         charges.add(meijer);
         charges.add(doorDash);
+        charges.add(gaming);
 
         for (int i = 0; i < charges.size(); i++) {
             allCharges += charges.get(i);
