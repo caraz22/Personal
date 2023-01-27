@@ -55,13 +55,23 @@ public class Tracking {
         ArrayList<Double> charges = new ArrayList<>();
         double amazon = 120.48;
         double meijer = 8.68;
-        double doorDash = 28.09;
+        double doorDash = 55.47;
         double gaming = 10.87;
-        
+        double clothes = 35.48;
+        double misc = 11.3;
+        double cats = 76.54;
+        double venmoMisc = 55.00;
+        double starbucks = 6.45;
+    
         charges.add(amazon);
         charges.add(meijer);
         charges.add(doorDash);
         charges.add(gaming);
+        charges.add(clothes);
+        charges.add(misc);
+        charges.add(cats);
+        charges.add(venmoMisc);
+        charges.add(starbucks);
 
         for (int i = 0; i < charges.size(); i++) {
             allCharges += charges.get(i);
