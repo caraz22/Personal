@@ -38,7 +38,7 @@ public class Tracking {
         double calculatedBudget = calculate(freeMonthly);
         if (calculatedBudget >= 0) {
              System.out.println("So far, you still have " + round(calculatedBudget) + " to spend for the month.");            
-        }else if (calculatedBudget < 0) {
+        } else if (calculatedBudget < 0) {
             double nextMonth = freeMonthly + calculatedBudget;
             System.out.println("Since you went over your budget for the month, next month you will have " + round(nextMonth) + " for free spending.");
         }
@@ -55,7 +55,7 @@ public class Tracking {
         ArrayList<Double> charges = new ArrayList<>();
         double amazon = 120.48;
         double meijer = 8.68;
-        double doorDash = 55.47;
+        double doorDash = 64.45;
         double gaming = 10.87;
         double clothes = 35.48;
         double misc = 11.3;
