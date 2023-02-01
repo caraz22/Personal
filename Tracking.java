@@ -55,7 +55,7 @@ public class Tracking {
         ArrayList<Double> charges = new ArrayList<>();
         double amazon = 120.48;
         double meijer = 8.68;
-        double doorDash = 64.45;
+        double doorDash = 85.24;
         double gaming = 10.87;
         double clothes = 35.48;
         double misc = 11.3;
