@@ -58,7 +58,7 @@ public class Tracking {
         double doorDash = 85.24;
         double gaming = 10.87;
         double clothes = 35.48;
-        double misc = 11.3;
+        double misc = 85.32;
         double cats = 76.54;
         double venmoMisc = 55.00;
         double starbucks = 6.45;
