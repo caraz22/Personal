@@ -13,6 +13,8 @@ public class CommunityCenter {
         if (input.equals("unsure")) {
 
         }
+
+        in.close();
     }
 
     public static void list(String input) {
