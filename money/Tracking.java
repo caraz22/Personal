@@ -58,10 +58,10 @@ public class Tracking {
         double doorDash = 85.24;
         double gaming = 10.87;
         double clothes = 35.48;
-        double misc = 85.32;
+        double misc = 202.93;
         double cats = 76.54;
         double venmoMisc = 55.00;
-        double starbucks = 6.45;
+        double starbucks = 12.9;
     
         charges.add(amazon);
         charges.add(meijer);
