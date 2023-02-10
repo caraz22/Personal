@@ -53,12 +53,12 @@ public class Tracking {
     public static double calculate(double freeMonthly) {
         double allCharges = 0;
         ArrayList<Double> charges = new ArrayList<>();
-        double amazon = 120.48;
+        double amazon = 137.52;
         double meijer = 8.68;
         double doorDash = 85.24;
         double gaming = 10.87;
         double clothes = 35.48;
-        double misc = 202.93;
+        double misc = 411.44;
         double cats = 76.54;
         double venmoMisc = 55.00;
         double starbucks = 12.9;
