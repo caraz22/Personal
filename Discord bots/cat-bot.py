@@ -2,7 +2,7 @@ from discord.ext import commands
 import discord
 # import requests
 
-BOT_TOKEN = "MTA5MTM2Njc0ODI0ODM1NDg0Ng.G5aFj8.jh9wCI67fEKoYoBxDPxalcxRg8GBPn869cp-3E"
+BOT_TOKEN = "MTA5MTM2Njc0ODI0ODM1NDg0Ng.G2-AuY.W-4s2Azb8OevIb2DIqhC2cQNbQ91wIZGfSWxZ0"
 CHANNEL_ID = 1091388078049996822
 
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all() )
