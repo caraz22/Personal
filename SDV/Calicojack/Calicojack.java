@@ -163,7 +163,7 @@ public class Calicojack {
         totalPointsLabel.setText(String.valueOf(totalPoints));
         labelDetails(totalPointsLabel, 35);
         
-        Icon cardBack = new ImageIcon("src/Calicojack/images/cardback.png");
+        Icon cardBack = new ImageIcon("SDV/Calicojack/images/cardback.png");
         backOfCard.setIcon(cardBack);
         backOfCard.setBounds(80, 150, 100, 150);
         
@@ -335,27 +335,27 @@ public class Calicojack {
 
     public static Icon getImageIcon(int cardValue, Icon cardImage) {
         if (cardValue == 1) {
-            cardImage = new ImageIcon("src/Calicojack/images/card1.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card1.png");
         } else if (cardValue == 2) {
-            cardImage = new ImageIcon("src/Calicojack/images/card2.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card2.png");
         } else if (cardValue == 3) {
-            cardImage = new ImageIcon("src/Calicojack/images/card3.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card3.png");
         } else if (cardValue == 4) {
-            cardImage = new ImageIcon("src/Calicojack/images/card4.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card4.png");
         } else if (cardValue == 5) {
-            cardImage = new ImageIcon("src/Calicojack/images/card5.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card5.png");
         } else if (cardValue == 6) {
-            cardImage = new ImageIcon("src/Calicojack/images/card6.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card6.png");
         } else if (cardValue == 7) {
-            cardImage = new ImageIcon("src/Calicojack/images/card7.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card7.png");
         } else if (cardValue == 8) {
-            cardImage = new ImageIcon("src/Calicojack/images/card8.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card8.png");
         } else if (cardValue == 9) {
-            cardImage = new ImageIcon("src/Calicojack/images/card9.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card9.png");
         } else if (cardValue == 10) {
-            cardImage = new ImageIcon("src/Calicojack/images/card10.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card10.png");
         } else if (cardValue == 11) {
-            cardImage = new ImageIcon("src/Calicojack/images/card11.png");
+            cardImage = new ImageIcon("SDV/Calicojack/images/card11.png");
         }
 
         return cardImage;
