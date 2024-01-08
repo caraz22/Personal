@@ -1,0 +1,14 @@
+season
+    spring
+        spring crops
+            spring crops names
+            spring crops prices
+    summer
+        summer crops
+            summer crops names
+            summer crops prices
+    fall
+        fall crops 
+            fall crops names
+            fall crops prices
+

@@ -1,0 +1,10 @@
+Amaranth, 70
+Artichoke, 30
+Beet, 20
+Bok Choy, 50
+Cranberry, 240
+Eggplant, 20
+Fairy Rose, 200
+Grape, 60
+Pumpkin, 100
+Yam, 60

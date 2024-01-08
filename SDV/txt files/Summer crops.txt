@@ -1,0 +1,13 @@
+Blueberry, 80
+Corn, 150
+Hops, 60
+Hot Pepper, 40
+Melon, 80
+Poppy, 100
+Radish, 40
+Red Cabbage, 100
+Starfruit, 400
+Summer Spangle, 50
+Sunflower, 200
+Tomato, 50
+Wheat, 10

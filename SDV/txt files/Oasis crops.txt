@@ -1,0 +1,4 @@
+Cactus, 150
+Rhubarb, 100
+Starfruit, 400
+Beet, 20

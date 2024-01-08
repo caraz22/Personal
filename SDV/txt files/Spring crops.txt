@@ -1,0 +1,11 @@
+Blue Jazz, 30
+Cauliflower, 80
+Garlic, 40
+Green Bean, 60
+Kale, 70
+Parsnip, 40
+Potato, 50
+Rhubarb, 100
+Strawberry, 100
+Tulip, 20
+Rice shoot, 40
