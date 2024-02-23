@@ -4,24 +4,24 @@
 using namespace std;
 
 class Weapon {
-    private:
-    string name;
-    int upgradeGeo;
-    int upgradePaleOre;
-    int damage;
-    Geo playerGeo;
+    // private:
+    // string name;
+    // int upgradeGeo;
+    // int upgradePaleOre;
+    // int damage;
+    // Geo playerGeo;
 
-    public:
-    Weapon();
+    // public:
+    // Weapon();
 
-    void setName(string);
-    void setUpgradeCost(int, int);
-    void setDamage(int);
+    // void setName(string);
+    // void setUpgradeCost(int, int);
+    // void setDamage(int);
 
-    int getGeo(Geo);
-    int getPaleOre();
+    // int getGeo(Geo);
+    // int getPaleOre();
 
-    void upgrade();
+    // void upgrade();
 
-    void nails();
+    // void nails();
 };

@@ -51,5 +51,7 @@ public class forWhen {
             String line = scanner.nextLine();
             System.out.println(line);
         }
+
+        scanner.close();
     }
 }
