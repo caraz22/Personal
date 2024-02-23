@@ -6,13 +6,14 @@ using namespace std;
 
 class Character {
     private:
+    string charName;
     string charClass;
     Stats charStats;
     Weapon charWeapon;
 
     public:
 
-    Character(string);
+    Character(string, string);
 
     void setStats(Stats);
     void setWeapon(Weapon);
@@ -20,6 +21,7 @@ class Character {
     string getClass();
     Stats getStats();
     Weapon getWeapon();
+    string getName();
 
     void print();
 };

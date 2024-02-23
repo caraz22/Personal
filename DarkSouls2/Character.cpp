@@ -1,6 +1,7 @@
 #include "Character.h"
 
-Character::Character(string newCharClass) {
+Character::Character(string newCharName, string newCharClass) {
+    charName = newCharName;
     charClass = newCharClass;
 }
 
@@ -24,8 +25,13 @@ Weapon Character::getWeapon() {
     return charWeapon;
 }
 
+string Character::getName() {
+    return charName;
+}
+
 void Character::print() {
-    cout << "You chose: " << charClass << endl;
+    cout << getName() << " chose: " << charClass << endl;
     cout << "Here are the " << charClass << "'s base stats:" << endl;
+    usleep(500000);
     charStats.print();
 }

@@ -9,11 +9,21 @@ int main() {
     cout << "Warrior, Knight, Swordsman, Bandit, Cleric, Sorcerer, Explorer" << endl;
     cin >> pickedClass;
 
-    Character character(pickedClass);
+    string name;
+    cout << "What is your name, " << pickedClass << "?" << endl;
+    cin >> name;
+    cout << endl;
+
+    Character character(name, pickedClass);
 
     Stats stats;
     stats.classStats(character.getClass());
     character.setStats(stats);
 
     character.print();
+
+    Weapon weapon;
+    weapon.weapons(character.getClass());
+    character.setWeapon(weapon);
+    weapon.print();
 }

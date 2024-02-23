@@ -8,6 +8,12 @@ class Weapon {
     int damage;
 
     public:
+    void setDamage(int);
+    void setWeapon(string);
     
-    void upgrade(int);
+    void weapons(string);
+
+    void upgrade();
+
+    void print();
 };

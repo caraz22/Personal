@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cszok/VS Code/Personal/DarkSouls2.1",
-      "program": "c:/Users/cszok/VS Code/Personal/DarkSouls2.1/build/Debug/outDebug",
+      "cwd": "c:/Users/cszok/VS Code/Personal/HollowKnight",
+      "program": "c:/Users/cszok/VS Code/Personal/HollowKnight/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

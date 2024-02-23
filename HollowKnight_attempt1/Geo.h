@@ -2,12 +2,12 @@
 
 using namespace std;
 
-class Stats {
+class Geo {
     private:
-    int vigor;
-    int endurance;
-    int strength;
+    int amount;
 
     public:
-    
+    void setGeo(int);
+
+    int getGeo();
 };

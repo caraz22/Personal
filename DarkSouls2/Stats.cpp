@@ -33,13 +33,24 @@ void Stats::classStats(string chosenClass) {
 
 void Stats::print() {
     cout << "Level: " << level << endl;
+    usleep(250000);
     cout << "Vigor: " << vigor << endl;
+    usleep(250000);
     cout << "Endurance: " << endurance << endl;
+    usleep(250000);
     cout << "Vitality: " << vitality << endl;
+    usleep(250000);
     cout << "Attune: " << attune << endl;
+    usleep(250000);
     cout << "Strength: " << strength << endl;
+    usleep(250000);
     cout << "Dexterity: " << dexterity << endl;
+    usleep(250000);
     cout << "Adaptability: " << adaptability << endl;
+    usleep(250000);
     cout << "Intelligence: " << intelligence << endl;
+    usleep(250000);
     cout << "Faith: " << faith << endl;
+    sleep(1);
+    cout << endl;
 }

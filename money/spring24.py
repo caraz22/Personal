@@ -15,6 +15,6 @@ monthly = laundry + ultimate + nitro + primeStudent + netflix + spotify + insura
 january = monthly - rent
 restOfMonths = monthly * 3
 
-print(str(round(monthly, 2)))
-print(str(round(january, 2)))
-print(str(round(restOfMonths, 2)))
+currRemaining = 3557 - monthly * 2
+
+print(str(currRemaining))

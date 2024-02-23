@@ -2,8 +2,8 @@
 
 using namespace std;
 
-class Weapon {
+class Ability {
     private:
-    string weaponName;
-    
+    string name;
+    string description;
 };
