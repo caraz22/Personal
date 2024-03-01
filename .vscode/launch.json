@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/cszok/VS Code/Personal",
-      "program": "c:/Users/cszok/VS Code/Personal/build/Debug/outDebug",
+      "cwd": "c:/Users/cszok/VS Code/Personal/Game creation/CatQuest",
+      "program": "c:/Users/cszok/VS Code/Personal/Game creation/CatQuest/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

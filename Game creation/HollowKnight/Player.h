@@ -11,7 +11,11 @@
 using namespace std;
 
 class Player {
-
+    private:
+    Weapon nail;
+    Health masks;
+    EnergySource soul;
+    Geo geo; 
 
     public:
     Player(Weapon, Health, EnergySource);
@@ -23,9 +27,5 @@ class Player {
 	void printGeo(ostream& os) const;
     friend ostream& operator<<(ostream& os, const Player& s);
     
-    private:
-    Weapon nail;
-    Health masks;
-    EnergySource soul;
-    Geo geo;    
+   
  };
