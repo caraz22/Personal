@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Dinner",
+      "request": "launch",
+      "mainClass": "GUI.Dinner",
+      "projectName": "Personal_5580dc47"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
