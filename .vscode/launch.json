@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "fallFinances",
+      "request": "launch",
+      "mainClass": "fallFinances",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
       "name": "summerFinances",
       "request": "launch",
       "mainClass": "summerFinances",
