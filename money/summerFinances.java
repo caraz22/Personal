@@ -13,9 +13,10 @@ public class summerFinances {
         double dashPass = 5.99;
         double electric = 80.00;
         double rent = 975.00;
+        double rocksmith = 19.99;
 
-        double monthlyExpenses = laundry + gamePass + nitro + primeStudent + youtubePremium + netflix + rentalInsurance + spotify + dashPass + electric + rent;
-        double loanMoney = 9351.98;
+        double monthlyExpenses = laundry + gamePass + nitro + primeStudent + youtubePremium + netflix + rentalInsurance + spotify + dashPass + electric + rent + rocksmith;
+        double loanMoney = 10588.98;
         double extraMoney = loanMoney - (monthlyExpenses * 3);
         System.out.println("Monthly expenses: " + monthlyExpenses);
         System.out.println(extraMoney);
