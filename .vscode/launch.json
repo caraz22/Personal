@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "os",
+      "request": "launch",
+      "mainClass": "testing.os",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "testing.main",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "fallFinances",
+      "request": "launch",
+      "mainClass": "fallFinances",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "summerFinances",
+      "request": "launch",
+      "mainClass": "summerFinances",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
       "name": "Dinner",
       "request": "launch",
       "mainClass": "GUI.Dinner",
