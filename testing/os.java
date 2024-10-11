@@ -20,6 +20,8 @@ public class os {
 
         System.out.println("Cursor column number: " + numColumns);
         System.out.println("Cursor row number: " + numRows);
+
+        in.close();
     }
 
     static int cursorNum(int num, int maxNum) {
