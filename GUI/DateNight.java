@@ -1,5 +1,3 @@
-package GUI;
-
 import javax.swing.ImageIcon;
 
 public class DateNight {
