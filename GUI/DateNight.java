@@ -1,12 +1,12 @@
-import javax.swing.ImageIcon;
+// import javax.swing.ImageIcon;
 
 public class DateNight {
     
-    private String restaurant;
-    private ImageIcon restaurantImage;
+    // private String restaurant;
+    // private ImageIcon restaurantImage;
 
-    public DateNight(String restaurant) {
-        this.restaurant = restaurant;
-        // this.restaurantImage = restaurantImage;
-    }
+    // public DateNight(String restaurant) {
+    //     this.restaurant = restaurant;
+    //     // this.restaurantImage = restaurantImage;
+    // }
 }
