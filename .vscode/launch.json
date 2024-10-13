@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Types",
+      "request": "launch",
+      "mainClass": "pokemonTypes.src.Types",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "Types",
+      "request": "launch",
+      "mainClass": "pokemonTypes.Types",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
+      "name": "Calicojack",
+      "request": "launch",
+      "mainClass": "Calicojack.Calicojack",
+      "projectName": "Personal_5580dc47"
+    },
+    {
+      "type": "java",
       "name": "os",
       "request": "launch",
       "mainClass": "testing.os",
